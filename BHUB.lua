@@ -43,7 +43,7 @@ local Window = Rayfield:CreateWindow({
 		Subtitle = "Key System",
 		Note = "Ask .brudi on discord.",
 		FileName = "dE0GBna2", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-		SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+		SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 		Key = {"BHUBKEY_quzir71c2tbhrOB53a6G30brsjUt6b7AR8Vt24bJkO"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
 	}
