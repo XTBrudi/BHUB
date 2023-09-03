@@ -226,7 +226,12 @@ local Slider = MainTab:CreateSlider({
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
 	end,
 })
-
+local Button = FunTab:CreateButton({
+	Name = "Infinite yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end,
+})
 local MainSection = MainTab:CreateSection("Flying") -- FLYING START
 local Toggle = MainTab:CreateToggle({
 	Name = "Toggle Swimm fly",
